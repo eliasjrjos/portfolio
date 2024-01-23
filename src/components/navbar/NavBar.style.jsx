@@ -12,7 +12,7 @@ const getNavMenuStateStyle = (props) => {
 }
 export const NavBarMenu = styled.ul`
     display: flex;
-    @media screen and ${devices.laptop} {
+    @media screen and ${devices.tablet} {
         background-color: #000;
         flex-direction: column;
         justify-content: center;
@@ -31,13 +31,13 @@ export const NavBarListItem = styled.li`
     padding: 0 1rem;
     list-style-type: none;
     @media screen and ${devices.laptop} {
-        padding: 1rem 0; 
+        padding: 1rem 1rem; 
     }
 `;
 
 
 const scrollActiveColor = css`
-    background-color: rgba(0,0,0,0.87);
+    background-color: rgba(0,0,0,0.80);
     transition: 1.5s
 `;
 const scrollInActiveColor = css`
@@ -56,15 +56,18 @@ export const NavHeader  = styled.div`
     align-items: center;
     padding: 1rem 6rem;
     position: fixed;
+    top: 30px;
+    left: 0;
     width: 100%;
+    max-width: ${devices.laptop};
     height: 90px;
-    z-index: 10;
+    z-index: 12;
     ${getHeaderBgColor}
 `;
 
 export const NavHamburger = styled.div`
     display: none;
-    @media screen and ${devices.laptop} {
+    @media ${devices.tablet}{
         display: initial; 
     }
 `;

@@ -15,25 +15,28 @@ const NavBar = props => {
     }
 
     const handleScrollChange = () => {
-        if(window.scrollY > 100)
+        if (window.scrollY > 100)
             setScrollActive(true)
         else
             setScrollActive(false)
     }
 
-    
+
     window.addEventListener("scroll", handleScrollChange);
 
 
     return (
         <NavHeader isScrollActive={scrollActive}>
-            <NavLink to={'/'}>Logo</NavLink>
+            <NavLink to={'/'}>Elias PORTFOLIO</NavLink>
             <NavBarMenu active={navHamburgerClick}>
                 <NavBarListItem onClick={handleNavHamburgerClick}>
                     <NavLink to={'/about'}>About</NavLink>
                 </NavBarListItem>
                 <NavBarListItem onClick={handleNavHamburgerClick}>
                     <NavLink to={'/projects'}>Projects</NavLink>
+                </NavBarListItem>
+                <NavBarListItem onClick={handleNavHamburgerClick}>
+                    <NavLink to={'/skills'}>Skills</NavLink>
                 </NavBarListItem>
                 <NavBarListItem onClick={handleNavHamburgerClick}>
                     <NavLink to={'/education'}>Education</NavLink>
@@ -44,11 +47,11 @@ const NavBar = props => {
             </NavBarMenu>
             <NavHamburger onClick={handleNavHamburgerClick}>
                 {
-                    navHamburgerClick ? (<FaTimes size={20} style={{color: "#fff"}} />)
-                    :
-                    (<FaBars size={20} style={{color: "#fff"}} />)
+                    navHamburgerClick ? (<FaTimes size={20} style={{ color: "#fff" }} />)
+                        :
+                        (<FaBars size={20} style={{ color: "#fff" }} />)
                 }
-                
+
             </NavHamburger>
         </NavHeader>
     )

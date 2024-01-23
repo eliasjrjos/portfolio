@@ -10,20 +10,20 @@ import { EducationCardContainer, UniversityCardContainer } from './Education.sty
 
 const Education = () => {
 
-    return(
+    return (
         <>
-            <HeaderSection 
+            <HeaderSection
                 title={'Education'}
                 subTitle={'education'}
-                imageFileName={'stage2'}
-                imageFileExtention={'jpg'}
+                imageFileName={'graduation3'}
+                imageFileExtention={'jfif'}
                 imageAlt={'education'}
             />
             <EducationCardContainer>
                 {
                     EducationData.map((obj, idx) => {
-                        return(
-                            <EducationCard 
+                        return (
+                            <EducationCard
                                 key={idx}
                                 degreeName={obj.degreeName}
                                 degreeUniversity={obj.degreeUniversity}
@@ -36,39 +36,27 @@ const Education = () => {
                                 degreeImageFileName={obj.degreeImageFileName}
                                 degreeImageFileExtention={obj.degreeImageFileExtention}
                                 degreeImageAlt={obj.degreeImageAlt}
+                                degreeCertificateFileName={obj.degreeCertificateFileName}
+                                degreeCertificateFileExtention={obj.degreeCertificateFileExtention}
                             />
                         )
                     })
                 }
             </EducationCardContainer>
             <UniversityCardContainer>
-                <UniversityCard 
-                    universityName={'Aleppo'}
-                    collageName={'Informatics'}
-                    collageWebUrl={'www.aleppo.com'}
-                    universityIconFileName={'icon1'}
-                    universityIconFileExtention={'jpg'}
-                />
-                <UniversityCard 
-                    universityName={'Aleppo'}
-                    collageName={'Informatics'}
-                    collageWebUrl={'www.aleppo.com'}
-                    universityIconFileName={'icon1'}
-                    universityIconFileExtention={'jpg'}
-                />
-                <UniversityCard 
+                <UniversityCard
                     universityName={'HIBA'}
-                    collageName={'MBA'}
+                    collageName={'HIBA'}
                     collageWebUrl={'www.hiba.edu.sy'}
-                    universityIconFileName={'icon1'}
+                    universityIconFileName={'hiba'}
                     universityIconFileExtention={'png'}
                 />
-                <UniversityCard 
-                    universityName={'HIBA'}
-                    collageName={'MBA'}
-                    collageWebUrl={'www.hiba.edu.sy'}
-                    universityIconFileName={'icon1'}
-                    universityIconFileExtention={'png'}
+                <UniversityCard
+                    universityName={'Aleppo'}
+                    collageName={'Informatics'}
+                    collageWebUrl={'www.alepuniv.edu.sy'}
+                    universityIconFileName={'alepuniv'}
+                    universityIconFileExtention={'jpg'}
                 />
             </UniversityCardContainer>
         </>

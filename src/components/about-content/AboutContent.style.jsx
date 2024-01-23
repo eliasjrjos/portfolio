@@ -8,7 +8,6 @@ export const AboutContentContainer = styled.div`
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    height: 100%;
 `;
 
 export const AboutInfo = styled.div`

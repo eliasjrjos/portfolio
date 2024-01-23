@@ -10,7 +10,7 @@ import WorkData from '../../data/work-card/WorkData';
 import { PriceCardDirectory, WorkCardContainer } from './Projects.style';
 
 const Projects = () => {
-    const navigate =useNavigate();
+    const navigate = useNavigate();
 
     const handlePriceCardClick = () => {
         navigate('/contact');
@@ -24,9 +24,9 @@ const Projects = () => {
         navigate("/");
     }
 
-    return(
+    return (
         <>
-            <HeaderSection 
+            <HeaderSection
                 title={'Projects'}
                 subTitle={'projects'}
                 imageFileName={'stage1'}
@@ -37,7 +37,7 @@ const Projects = () => {
                 {
                     WorkData.map((obj, idx) => {
 
-                        return(
+                        return (
                             <WorkCard
                                 key={idx}
                                 cardTitle={obj.title}
@@ -53,7 +53,7 @@ const Projects = () => {
                 }
             </WorkCardContainer>
             <PriceCardDirectory>
-                <PriceCard 
+                <PriceCard
                     cardName={'Basic'}
                     cardPrice={100}
                     cardDetails={{
@@ -64,7 +64,7 @@ const Projects = () => {
                     }}
                     clickFunc={handlePriceCardClick}
                 />
-                <PriceCard 
+                <PriceCard
                     cardName={'Advanced'}
                     cardPrice={200}
                     cardDetails={{
@@ -75,7 +75,7 @@ const Projects = () => {
                     }}
                     clickFunc={handlePriceCardClick}
                 />
-                <PriceCard 
+                <PriceCard
                     cardName={'Business'}
                     cardPrice={300}
                     cardDetails={{

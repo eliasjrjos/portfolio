@@ -19,7 +19,15 @@ export const CardContainer = styled.div`
     }
 
     p {
-        padding: 10px 0;
+        // padding: 10px 0;
+    }
+
+    @media ${devices.tablet} {
+
+    }
+
+    @media ${devices.mobile} {
+
     }
 `;
 
@@ -37,9 +45,25 @@ export const UniversityNameStyle = styled.div`
     text-align: center;
 
     h1 {
-        font-size: 4rem;
+        font-size: 3rem;
         font-weight: 500;
         padding: 0 1rem;
+    }
+
+    @media ${devices.tablet} {
+        h1 {
+            font-size: 1.5rem;
+            font-weight: 250;
+            padding: 0 1rem;
+        }
+    }
+
+    @media ${devices.mobile} {
+        h1 {
+            font-size: 0.8rem;
+            font-weight: 200;
+            padding: 0 1rem;
+        }
     }
 `;
 
@@ -47,12 +71,32 @@ export const CollageNameStyle = styled.div`
     font-size: 4rem;
     font-weight: 600;
     padding: 1rem 0;
+
+    @media ${devices.tablet} {
+        font-size: 2rem;
+        font-weight: 350;
+    }
+
+    @media ${devices.mobile} {
+        font-size: 1.2rem;
+        font-weight: 250;
+    }
 `;
 
 export const IconStyle = styled.img`
-    width: 80px;
-    height: 80px;
-    padding: 0.2rem;
+    width: 250px;
+    height: 150px;
+    padding: 0.1rem;
+
+    @media ${devices.tablet} {
+        width: 100px;
+        height: 100px;
+    }
+
+    @media ${devices.mobile} {
+        width: 60px;
+        height: 60px;
+    }
 `;
 
 export const CollageDetails = styled.div`
@@ -60,6 +104,21 @@ export const CollageDetails = styled.div`
     justify-content: center;
 
     p {
-        line-height: 30px;
+        font-size: 1rem;
+        // line-height: 30px;
+    }
+
+    @media ${devices.tablet} {
+        p {
+            font-size: 0.9rem;
+            // line-height: 25px;
+        }
+    }
+
+    @media ${devices.mobile} {
+        p {
+            font-size: 0.8rem;
+            // line-height: 20px;
+        }
     }
 `;

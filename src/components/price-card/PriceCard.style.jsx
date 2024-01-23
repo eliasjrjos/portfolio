@@ -7,7 +7,6 @@ export const CardContainer = styled.div`
     border: 1px solid #eee;
     color: #eee;
     text-align: center;
-    padding: 1rem;
 
     &:hover {
         background-color: #141414;

@@ -8,22 +8,26 @@ export const EducationData = [
         graduationRate: '79.13',
         graduationDate: '2021',
         degreeSDate: '2018',
-        degreeEDate: '2020',
-        degreeImageFileName: 'stage1',
-        degreeImageFileExtention: 'jpg',
-        degreeImageAlt: 'Master'
+        degreeEDate: '2021',
+        degreeImageFileName: 'mba',
+        degreeImageFileExtention: 'png',
+        degreeImageAlt: 'Master',
+        degreeCertificateFileName: 'PortFolio_Master',
+        degreeCertificateFileExtention: 'pdf'
     },
     {
         degreeName: 'Bachelor',
         degreeUniversity: 'Aleppo',
         collageName: 'Informatics',
         sectionName: '',
-        graduationRate: '72.55',
+        graduationRate: '72.795',
         graduationDate: '2010',
         degreeSDate: '2005',
         degreeEDate: '2010',
-        degreeImageFileName: 'stage2',
-        degreeImageFileExtention: 'jpg',
-        degreeImageAlt: 'Bachelor'
+        degreeImageFileName: 'informatics',
+        degreeImageFileExtention: 'jfif',
+        degreeImageAlt: 'Bachelor',
+        degreeCertificateFileName: 'Portfolio_Bachelor',
+        degreeCertificateFileExtention: 'pdf'
     }
 ];
