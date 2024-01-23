@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.e1420b04.css",
+    "main.js": "/portfolio/static/js/main.e1f84fc7.js",
+    "static/media/Java-background.jpg": "/portfolio/static/media/Java-background.fbf92394f5a6ab6b1732.jpg",
+    "static/media/csharp-icon.png": "/portfolio/static/media/csharp-icon.3137789c01ee1c3131f3.png",
+    "static/media/js-html-css-background.png": "/portfolio/static/media/js-html-css-background.3b6131bbc0c29e387c1f.png",
+    "static/media/mba.png": "/portfolio/static/media/mba.b0841efb1956283b85ad.png",
+    "static/media/hiba.png": "/portfolio/static/media/hiba.5411ba8400df47ca4901.png",
+    "static/media/reactjs-developer-background.jpg": "/portfolio/static/media/reactjs-developer-background.c3d334a5ca1d549d49c9.jpg",
+    "static/media/react-background.jpg": "/portfolio/static/media/react-background.2a8456a63a9c62a03394.jpg",
+    "static/media/jasper-developer-background.jfif": "/portfolio/static/media/jasper-developer-background.1ffbdc1657ee8835527c.jfif",
+    "static/media/Fullstack-background.jpg": "/portfolio/static/media/Fullstack-background.a2552c96d9d2e984b98e.jpg",
+    "static/media/react-icon.jpg": "/portfolio/static/media/react-icon.950dba247d640738a5fe.jpg",
+    "static/media/stage4.jpg": "/portfolio/static/media/stage4.e87601c23213a32db2e5.jpg",
+    "static/media/informatics.jfif": "/portfolio/static/media/informatics.5329462a6214c95926b7.jfif",
+    "static/media/alepuniv.jpg": "/portfolio/static/media/alepuniv.1977435353c32e2637c1.jpg",
+    "static/media/nextjs-icon.png": "/portfolio/static/media/nextjs-icon.bd87e23684048d57e318.png",
+    "static/media/tailwind-background.png": "/portfolio/static/media/tailwind-background.e55d1867d1aa2bf20813.png",
+    "static/media/intro.jpg": "/portfolio/static/media/intro.b2b6454ab7c71f4acc8f.jpg",
+    "static/media/cross-platforms.jpg": "/portfolio/static/media/cross-platforms.2f76baeac2d9bd4989e9.jpg",
+    "static/media/database-developer-backgrond.jfif": "/portfolio/static/media/database-developer-backgrond.4c1c8620c3154913d3e9.jfif",
+    "static/media/c-sharp-background.jfif": "/portfolio/static/media/c-sharp-background.ae7205392700393ff809.jfif",
+    "static/media/sql-icon.jfif": "/portfolio/static/media/sql-icon.46c706cd9c2db9966c3a.jfif",
+    "static/media/sql-background.jfif": "/portfolio/static/media/sql-background.7e98a66c0a4b13eb46ef.jfif",
+    "static/media/web-developer-background.jfif": "/portfolio/static/media/web-developer-background.3896c5782d93f6697050.jfif",
+    "static/media/js-html-css-icon.jfif": "/portfolio/static/media/js-html-css-icon.08e3011a27c6c101578f.jfif",
+    "static/media/graduation1.jfif": "/portfolio/static/media/graduation1.0fb65dab6207cc8b80ac.jfif",
+    "static/media/graduation3.jfif": "/portfolio/static/media/graduation3.3616a2853b9836affa0c.jfif",
+    "static/media/graduation2.jfif": "/portfolio/static/media/graduation2.130ce1720af90bc17151.jfif",
+    "static/media/nextjs-background.jfif": "/portfolio/static/media/nextjs-background.a69773c1ee6eb6bcff1c.jfif",
+    "static/media/java-icon.svg": "/portfolio/static/media/java-icon.68585ce8dadbd8ecebdc.svg",
+    "index.html": "/portfolio/index.html",
+    "main.e1420b04.css.map": "/portfolio/static/css/main.e1420b04.css.map",
+    "main.e1f84fc7.js.map": "/portfolio/static/js/main.e1f84fc7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1420b04.css",
+    "static/js/main.e1f84fc7.js"
+  ]
+}
