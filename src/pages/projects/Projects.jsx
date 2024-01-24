@@ -68,7 +68,7 @@ const Projects = () => {
                     cardName={'Advanced'}
                     cardPrice={200}
                     cardDetails={{
-                        duration: '- 2 Days -',
+                        duration: '- 4 Days -',
                         pages: '- 5 Pages -',
                         features: '- Featured -',
                         design: '- Responsive Design -'

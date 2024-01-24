@@ -2,11 +2,11 @@ import React from 'react';
 
 import CustomButton from '../custom-button/CustomButton';
 
-import { CardContainer, PriceStyle, BarLine, CardDetails } from './PriceCard.style';
+import { CardContainer, PriceStyle, BarLine, CardDetails, CardFooter } from './PriceCard.style';
 
 const PriceCard = ({ cardName, cardPrice, cardDetails, clickFunc }) => {
 
-    return(
+    return (
         <CardContainer>
             <h4>{cardName}</h4>
             <BarLine />
@@ -17,7 +17,9 @@ const PriceCard = ({ cardName, cardPrice, cardDetails, clickFunc }) => {
                 <p>{cardDetails && cardDetails.features}</p>
                 <p>{cardDetails && cardDetails.design}</p>
             </CardDetails>
-            <CustomButton onClick={clickFunc}>Purchase NOW</CustomButton>
+            <CardFooter>
+                {false && <CustomButton onClick={clickFunc}>Purchase NOW</CustomButton>}
+            </CardFooter>
         </CardContainer>
     )
 };

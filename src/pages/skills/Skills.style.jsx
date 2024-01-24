@@ -12,11 +12,18 @@ export const SkillCardContainer = styled.div`
     max-width: 1024px;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
 
-    @media ${devices.laptop} {  
+    @media ${devices.tablet} {  
         max-width: 90%;
+        margin: auto;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media ${devices.mobile} {  
+        max-width: 90%;
+        padding: 2rem 0.6rem;
         margin: auto;
         grid-template-columns: 1fr;
     }

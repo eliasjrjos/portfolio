@@ -16,11 +16,11 @@ import './index.css';
 function App() {
 
   return (
-    <div style={{width: "100%", height: "100vh"}}>
+    <div style={{ width: "100%", height: "100vh" }}>
       <GlobalStyle />
       <NavBar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/skills" element={<Skills />} />

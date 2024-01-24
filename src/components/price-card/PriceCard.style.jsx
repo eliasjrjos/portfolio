@@ -38,3 +38,9 @@ export const PriceStyle = styled.div`
 export const CardDetails = styled.div`
 
 `;
+
+export const CardFooter = styled.div`
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0.5rem 0;
+`;

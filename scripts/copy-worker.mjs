@@ -4,7 +4,7 @@ import path from 'path';
 const pdfjsDistPath = path.dirname(require.resolve('pdfjs-dist/package.json'));
 const pdfWorkerPath = path.join(pdfjsDistPath, 'build', 'pdf.worker.js');
 
-const targetDir = 'public';
+const targetDir = 'build';
 const targetPath = path.join(targetDir, 'pdf.worker.js');
 
 // Ensure target directory exists

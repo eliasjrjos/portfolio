@@ -18,7 +18,7 @@ const SkillCard = ({ cardTitle, cardAbstract, cardImageFileName,
                 <p>{cardAbstract}</p>
                 <CardFooter>
                     <CustomButton onClick={() => setActive(true)}>View</CustomButton>
-                    <CustomButton onClick={cardSourceFunc}>Source</CustomButton>
+                    {false && <CustomButton onClick={cardSourceFunc}>Source</CustomButton>}
                 </CardFooter>
             </CardDetails>
             <Modal

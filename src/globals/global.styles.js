@@ -19,8 +19,11 @@ export const GlobalStyle = createGlobalStyle`
         color: #fff;
         font-size: 1.2rem;
         font-weight: 500;
+        @media ${devices.tablet} {
+            font-size: 1rem;
+        }
         @media ${devices.mobile} {
-            font-size: 2rem;
+            font-size: 0.8rem;
         }
     }
 

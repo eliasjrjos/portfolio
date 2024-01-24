@@ -29,8 +29,6 @@
     "copy-cmaps": "node ./scripts/copy-cmaps.mjs",
     "copy-standard-fonts": "node ./scripts/copy-standard-fonts.mjs",
     "copy-worker": "node ./scripts/copy-worker.mjs",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },

@@ -44,7 +44,7 @@ const WorkCard = ({ cardTitle, cardAbstract, cardImageFileName,
                 </CardHint>
                 <CardFooter>
                     <CustomButton onClick={handleCardViewClick}>View</CustomButton>
-                    <CustomButton onClick={cardSourceFunc}>Source</CustomButton>
+                    {false && <CustomButton onClick={cardSourceFunc}>Source</CustomButton>}
                 </CardFooter>
             </CardDetails>
 
@@ -55,28 +55,6 @@ const WorkCard = ({ cardTitle, cardAbstract, cardImageFileName,
             >
                 {cardAbstract}
             </Modal>
-
-            {/* <Modal
-                active={active}
-                hideModal={handleCloseModal}
-                title={cardTitle}
-                footer={<CardModalFooter>
-                    <div>
-                        <CustomButton onClick={goToPrevPage}>Prev</CustomButton>
-                        <CustomButton onClick={goToNextPage}>Next</CustomButton>
-                    </div>
-                    <p>
-                        Page {pageNumber} of {numPages}
-                    </p>
-                </CardModalFooter>}
-            >
-                <div>
-                    <Document options={{ workerSrc: "pdf.worker.js" }}
-                        file={`Elias.pdf`} onLoadSuccess={onDocumentLoadSuccess}>
-                        <Page canvasBackground={'#dde8e8'} pageNumber={pageNumber} />
-                    </Document>
-                </div>
-            </Modal> */}
         </CardContainer>
     )
 };
