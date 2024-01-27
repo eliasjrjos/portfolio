@@ -6,10 +6,19 @@ const WorkData = [
             '2. For test purpose use these credentials:\n' +
             '• email: online.store@gmail.com\n' +
             '• password: admin\n' +
-            '3. I have used React JS to design and build the application',
+            '3. I have used React JS to design and build the application' +
+            '\n and can accessed via eliasjrjos.github.io/online.store',
         imageFileName: 'react-background',
         imageFileExtention: 'jpg',
         imageAlt: 'ECommerice',
+    },
+    {
+        title: 'Monsters Rolodex',
+        abstract: 'Build a React application that enables search for a list of monsters with some motions.' +
+            '\n and can accessed via eliasjrjos.github.io/monsters-rolodex',
+        imageFileName: 'react-background',
+        imageFileExtention: 'jpg',
+        imageAlt: 'Monsters Rolodex',
     },
     {
         title: 'Pre Admition Test',

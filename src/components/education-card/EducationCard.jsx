@@ -23,7 +23,6 @@ const EducationCard = ({ degreeName, degreeUniversity, collageName, sectionName,
 
 
     const handleCardViewClick = () => {
-        console.log('View Certificate File');
         setActive(true);
     }
 

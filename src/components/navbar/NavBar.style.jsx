@@ -45,12 +45,12 @@ const scrollInActiveColor = css`
     transition: 1.5s
 `;
 const getHeaderBgColor = (props) => {
-    if(props.isScrollActive)
+    if (props.isScrollActive)
         return scrollActiveColor;
     else
         return scrollInActiveColor;
 }
-export const NavHeader  = styled.div`
+export const NavHeader = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -70,4 +70,31 @@ export const NavHamburger = styled.div`
     @media ${devices.tablet}{
         display: initial; 
     }
+`;
+
+export const NavLogo = styled.div`
+    width: 190px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    @media ${devices.tablet}{
+        width: 150px; 
+    }
+
+    @media ${devices.mobile}{
+        width: 100px; 
+    }
+`;
+
+export const ModalFooter = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
 `;
