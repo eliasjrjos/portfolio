@@ -3,16 +3,32 @@ import { FaCode, FaBook } from 'react-icons/fa';
 
 export const AboutData = [{
     id: 1,
-    date: '2023 - current',
+    date: '2025 - Current',
+    icon: <FaBook size={20} style={{ color: '#fff' }} />,
+    title: 'IT SPECIALIST',
+    subTitle: 'JEWELER STEFAN ATAK',
+    address: 'Am Brink 1, 48282 Emsdetten – Deutschland',
+    description: 'Website Maintenance and Management (Online Shop, eBay, Facebook, Instagram, X, Xing).\n' +
+        'Identification and analysis of security issues, risk factors, and security incidents, as well as operational support in\n' +
+        'implementing necessary measures.\n' +
+        'Monitoring and maintenance of IT security, network, infrastructure, and monitoring systems.\n' +
+        'Analysis of technical inquiries and resolution via remote management software.\n' +
+        'Documentation, administration, and maintenance in the CRM system.\n' +
+        'Responsible for system and network administration.'
+}, {
+    id: 2,
+    date: '2023 - 2024',
     icon: <FaBook size={20} style={{ color: '#fff' }} />,
     title: 'Web Developer',
     subTitle: 'Accumed Co.',
     address: 'Office 101, Wahat Al-Fardous Building, Fardous Street, Damascus – Syria',
+    experianceCertificateFileName: 'Experiance_ACCUMED',
+    experianceCertificateFileExtention: 'pdf',
     description: 'Work on Mobadala project in UAE.\n' +
         'Work with SCRUM methodology using Jira software.\n' +
         'Using JAVA, JSF, PrimeFaces 12 and Sql Server database.'
 }, {
-    id: 2,
+    id: 3,
     date: '2017 - 2023',
     icon: <FaBook size={20} style={{ color: '#fff' }} />,
     title: 'Head of the Development and Programming Division',
@@ -32,7 +48,7 @@ export const AboutData = [{
         'information infrastructure.\n' +
         '5. Participation in a number of technical committees to evaluate the technical offers submitted to the Institute.'
 }, {
-    id: 3,
+    id: 4,
     date: '2020 - 2023',
     icon: <FaCode />,
     title: 'Senior Web Developer',
@@ -41,7 +57,7 @@ export const AboutData = [{
     experianceCertificateFileExtention: 'pdf',
     description: 'Web application development portal. Design and develop API based on Spring Boot framework. Build reusable NextJS components.'
 }, {
-    id: 4,
+    id: 5,
     date: '2017 - 2020',
     icon: <FaCode />,
     title: 'Web Developer',
@@ -53,7 +69,7 @@ export const AboutData = [{
         '\n Work on projects: 1- ERP for Damascus Governorate. 2- ERP for General Customs Administration.' +
         '\n Build reports using Jaspersoft studio. Build Java scriptlets into reports to add more functionality. Configure Jasper report server and manage permissions and users.'
 }, {
-    id: 5,
+    id: 6,
     date: '2011 - 2016',
     icon: <FaCode />,
     title: 'Web Developer',

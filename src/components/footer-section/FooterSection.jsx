@@ -28,18 +28,18 @@ const FooterSection = () => {
             <FooterLeftSection>
                 <AddressStyle>
                     <FaHome size={20} style={{ color: '#fff', marginRight: '1.5rem' }} />
-                    <p>Jdaydet Artooz</p>
+                    <p>Mühlhäuser Straße 54</p>
                     <p>-</p>
-                    <p>Damascus</p>
+                    <p>48155 Münster</p>
                 </AddressStyle>
                 <PhoneStyle>
                     <h4>
                         <FaMobile size={width <= parseInt(size.mobile) ? 15 : 20} style={{ color: '#fff', marginRight: '1.5rem' }} />
-                        +963938914753
+                        +491601575501
                     </h4>
                     <h4>
                         <FaWhatsapp size={width <= parseInt(size.mobile) ? 15 : 20} style={{ color: '#fff', marginRight: '1.5rem' }} />
-                        +963938914753
+                        +491601575501
                     </h4>
                 </PhoneStyle>
                 <MailStyle>
