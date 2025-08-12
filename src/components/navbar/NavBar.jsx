@@ -1,9 +1,6 @@
 import React from 'react'
-import PropTypes from 'prop-types';
 import Modal from '../modal/Modal';
 import { Document, Page } from 'react-pdf';
-
-import { AnimatePresence, motion } from 'framer-motion';
 
 import CustomButton from '../custom-button/CustomButton';
 
